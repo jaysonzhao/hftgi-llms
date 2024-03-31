@@ -24,8 +24,8 @@ spec:
         - resources:
             limits:
               cpu: "8"
-              memory: 24Gi
-              nvidia.com/gpu: "1"
+              memory: 32Gi
+              nvidia.com/gpu: "3"
             requests:
               cpu: "6"
           readinessProbe:
